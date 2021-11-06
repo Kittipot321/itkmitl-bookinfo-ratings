@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: apache
-  namespace: student1-manifest
+  namespace: student1-bookinfo-dev
   labels:
     app: apache
 spec:
