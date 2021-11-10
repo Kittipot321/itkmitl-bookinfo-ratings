@@ -18,7 +18,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: .
           push: true
           tags: kittipot321/bookinfo-ratings:dev
       # - run: docker build -t ghcr.io/kittipot321/bookinfo-ratings:dev .
