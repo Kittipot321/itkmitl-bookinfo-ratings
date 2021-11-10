@@ -19,7 +19,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kittipot321/bookinfo-ratings:dev
+          tags: ghcr.io/kittipot321/bookinfo-ratings:dev
       # - run: docker build -t ghcr.io/kittipot321/bookinfo-ratings:dev .
       # - run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       # - run: docker push ghcr.io/kittipot321/bookinfo-ratings:dev
