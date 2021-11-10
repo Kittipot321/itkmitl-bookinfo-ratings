@@ -20,8 +20,6 @@ jobs:
         with:
           push: true
           tags: user/app:dev
-          secrets: |
-            GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
       # - run: docker build -t ghcr.io/kittipot321/bookinfo-ratings:dev .
       # - run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       # - run: docker push ghcr.io/kittipot321/bookinfo-ratings:dev
