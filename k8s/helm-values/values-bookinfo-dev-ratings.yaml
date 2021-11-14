@@ -1,4 +1,5 @@
 ratings:
+  create: false
   namespace: student1-bookinfo-dev
   image: ghcr.io/kittipot321/bookinfo-ratings
   tag: dev
