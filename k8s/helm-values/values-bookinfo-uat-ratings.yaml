@@ -1,12 +1,12 @@
 ratings:
   namespace: student1-bookinfo-dev
   image: ghcr.io/kittipot321/bookinfo-ratings
-  tag: dev
+  tag: uat
   replicas: 1
   imagePullSecrets: registry-bookinfo
   port: 8080
 ingress:
-  host: bookinfo.uat.opsta.net
+  host: itkmitl.bookinfo.uat.opsta.net
   path: "/student1/ratings(/|$)(.*)"
   serviceType: ClusterIP
   annotations:
