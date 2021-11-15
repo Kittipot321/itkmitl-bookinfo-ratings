@@ -1,5 +1,5 @@
 ratings:
-  namespace: student1-bookinfo-dev
+  namespace: student1-bookinfo-uat
   image: ghcr.io/kittipot321/bookinfo-ratings
   tag: uat
   replicas: 1
