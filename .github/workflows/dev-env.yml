@@ -44,3 +44,10 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
+  curl:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: http://itkmitl.bookinfo.dev.opsta.net/student1/ratings/health | grep "Ratings is working"
